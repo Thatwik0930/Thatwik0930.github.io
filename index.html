@@ -1,178 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Thatwik Reddy Samanthula Resume</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    <meta charset="UTF-8">
+    <title>Thatwik Reddy Samanthula Resume</title>
 
-    .container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      max-width: 800px;
-    }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFzTlVqqnFqBRW3I5fksd5w33xq10lN"
+        crossorigin="anonymous">
 
-    header {
-      background-color: #222;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      flex: 1;
-    }
-
-    h1 {
-      font-size: 2em;
-      margin: 0;
-    }
-
-    h2 {
-      font-size: 1.5em;
-      margin: 0;
-    }
-
-    .left {
-      padding: 20px;
-      flex: 1;
-    }
-
-    .left h3 {
-      margin-top: 0;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: black;
-      text-decoration: none;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    th, td {
-      padding: 5px;
-      border: 1px solid black;
-    }
-
-    th {
-      text-align: left;
-    }
-  </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-rZ5GCZpZlHR1YacNIbC2fpu7FxnkcyZDH9dPE5HVUN7Jq4pMl0kSPrF4PPYsDcSz"
+        crossorigin="anonymous">
+        <style>
+            body {
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            header {
+                background-color: #0b0f10;
+                color: white;
+                padding: 20px;
+                flex: 1;
+                border-radius: 10px;
+            }
+        
+            h1 {
+                font-size: 2em;
+                margin: 0;
+            }
+        
+            h2 {
+                font-size: 1.5em;
+                margin: 0;
+            }
+        
+            .container {
+                display: flex;
+                flex-direction: row;
+                width: 100%; 
+                max-width: 800px;
+                border: 2px solid #0e1111;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+        
+            .left {
+                flex: 1;
+                padding: 20px;
+            }
+        
+            .left h3 {
+                margin-top: 0;
+            }
+        
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+        
+            li {
+                margin-bottom: 10px;
+            }
+        
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        
+            .left-section {
+                margin-bottom: 20px;
+            }
+        
+            .left-section h3 {
+                margin-top: 0;
+                border-bottom: 1px solid #040404;
+                padding-bottom: 5px;
+            }
+        
+            .custom-table {
+                border: 1px solid #0a0c0c;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+        
+            .custom-table th,
+            .custom-table td {
+                padding: 8px;
+                border: 1px solid #010a10;
+                text-align: left;
+            }
+        
+            .header-content {
+                display: flex;
+                justify-content: center;
+                width: 100%; 
+                max-width: 800px; 
+                border-radius: 10px;
+                padding: 20px;
+            }
+        
+            .profile-section {
+                display: flex;
+                align-items: center;
+            }
+        
+            .profile-image {
+                width: 150px; 
+                height: 150px; 
+                border-radius: 100%;
+                margin-right: 20px; 
+            }
+        
+            .header-text {
+                margin-right: 20px; 
+            }
+        </style>
+        
 </head>
+
 <body>
 
-  <header>
-    <h1>Thatwik Reddy Samanthula</h1>
-    <h2>B.Tech - Data Science and Artificial Intelligence</h2>
-  </header>
+    <header>
+        <div class="header-content">
+            <div class="profile-section">
+                <img src="C:/Users/thatw/OneDrive/Desktop/Fullstack/Profile.jpg" alt="Your Image" class="profile-image">
+                <div class="header-text">
+                    <h1>Thatwik Reddy Samanthula</h1>
+                    <h2>Data Science and Artificial Intelligence student</h2>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <div class="container">
-    <section class="left">
-      <h3>Contact</h3>
-      <ul>
-        <li>+91 8179783182</li>
-        <li>thatwikreddy.s@gmail.com</li>
-        <li>Flat no-302, Jahnavi residency, Ramanthapur, Hyderabad, Telangana-500013</li>
-        <li><a href="https://www.linkedin.com/in/thatwik-reddy-samanthula-492325230/">LinkedIn</a></li>
-      </ul>
+    <div class="container">
+        <section class="left">
+            <div class="left-section">
+                <h3>Contact <i class="fas fa-info-circle"></i></h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +91 8179783182</li>
+                    <li><i class="fas fa-envelope"></i> thatwikreddy.s@gmail.com</li>
+                    <li><i class="fas fa-home"></i>Hyderabad,
+                        Telangana-500013
+                    </li>
+                    <li><i class="fab fa-linkedin"></i> <a
+                            href="https://www.linkedin.com/in/thatwik-reddy-samanthula-492325230/">LinkedIn</a></li>
+                </ul>
+            </div>
 
-      <h3>Specialization</h3>
-      <ul>
-        <li>Major-1: Data Science</li>
-        <li>Major-2: Artificial Intelligence and Machine Learning</li>
-      </ul>
+            <div class="left-section">
+                <h3>Specialization <i class="fas fa-certificate"></i></h3>
+                <ul>
+                    <li>Major-1: Data Science</li>
+                    <li>Major-2: Artificial Intelligence and Machine Learning</li>
+                </ul>
+            </div>
 
-      <h3>Languages</h3>
-      <ul>
-        <li>English</li>
-        <li>Hindi</li>
-        <li>Telugu</li>
-      </ul>
+            <div class="left-section">
+                <h3>Languages <i class="fas fa-language"></i></h3>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Telugu</li>
+                </ul>
+            </div>
 
-      <h3>Technical Skills</h3>
-      <ul>
-        <li>Machine Learning</li>
-        <li>Algorithms</li>
-        <li>HTML, CSS, JavaScript (Basic)</li>
-        <li>SQL (Basic)</li>
-        <li>Java</li>
-        <li>Python (Intermediate)</li>
-      </ul>
-    </section>
+            <div class="left-section">
+                <h3>Technical Skills <i class="fas fa-code"></i></h3>
+                <ul>
+                    <li>Hands on Machine Learning algorithms</li>
+                    <li>HTML, CSS, JavaScript </li>
+                    <li>MERN stack</li>
+                    <li>Java (Intermediate),Python programming</li>
+                    <li>Data analytics and Visualization</li>
+                    <li>SQl and databases Management</li>
+                    <li>Object detection and Computer vision tools</li>
 
-    <section>
-      <h3>Synopsis</h3>
-      <p>Aspiring AI and data science enthusiast actively seeking an internship or full-time role in this field. I have a solid grounding in computer science basics and hands-on experience with machine learning and data science tools and frameworks. I've also competed in hackathons and other competitions, demonstrating my ability to work effectively in teams.</p>
+                </ul>
+            </div>
+            <div class="left-section">
+                <h3>Awards and Achivements <i class="fas fa-code"></i></h3>
+                <ul>
+                    <li>Won R1 codefiesta Hackathon - 2023</li>
+                    <li>Published a conference paper on Smart sprinkler system</li>
+                   
+                </ul>
+            </div>
+        </section>
 
-      <h3>Academics</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Institution</th>
-            <th>Qualification</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Woxsen University | Hyderabad</td>
-            <td>B.TECH - Data Science and Artificial Intelligence</td>
-            <td>2021-2025</td>
-          </tr>
-          <tr>
-            <td>Page junior college Hyderabad, India</td>
-            <td>Intermediate: Maths, Physics, chemistry</td>
-            <td>2019-2021</td>
-          </tr>
-          <tr>
-            <td>St. Alpha's high school | Hyderabad, India</td>
-            <td>Primary and High school education</td>
-            <td>2011-2019</td>
-          </tr>
-        </tbody>
-      </table>
+        <section class="col-md-8">
+            <div class="left-section">
+                <h3>Synopsis <i class="fas fa-file-alt"></i></h3>
+                <p>Aspiring AI and data science enthusiast actively seeking an internship or full-time role in this
+                    field. I have a solid grounding in computer science basics and hands-on experience with machine
+                    learning and data science tools and frameworks. I've also competed in hackathons and other
+                    competitions, demonstrating my ability to work effectively in teams.</p>
+            </div>
 
-      <h3>Projects</h3>
-      <ul>
-        <li><b>Smart Sprinkler system</b></li>
-        <li>Smart sprinkler systems are a combination of advanced technology sprinklers with nozzles that improve coverage and irrigation controllers that are watering and water conservation systems that monitor moisture-related conditions on your property and automatically adjust watering to optimal levels.</li>
-        <li><b>Heart Disease detection using electrocardiograph</b></li>
-        <li>ECG feature measurements extracted from the CSV data such as heart rate, intervals, segments, and waveform morphology. Extracting relevant features from data to feed into machine learning model. We can use different Machine learning algorithms for training to improve the accuracy of the model</li>
-      </ul>
+            <div class="left-section">
+                <h3>Academics <i class="fas fa-graduation-cap"></i></h3>
+                <div class="table-responsive">
+   
+                    <table class="table table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th>Institution</th>
+                                <th>Qualification</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Woxsen University | Hyderabad</td>
+                                <td>B.TECH - Data Science and Artificial Intelligence</td>
+                                <td>2021-2025</td>
+                            </tr>
+                            <tr>
+                                <td>Page junior college Hyderabad, India</td>
+                                <td>Intermediate: Maths, Physics, chemistry</td>
+                                <td>2019-2021</td>
+                            </tr>
+                            <tr>
+                                <td>St. Alpha's high school | Hyderabad, India</td>
+                                <td>Primary and High school education</td>
+                                <td>2011-2019</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
-      <h3>Summer Internship</h3>
-      <ul>
-        <li>May 2023 – July 2023 | Pernati naturals | Allampadu, Nellore</li>
-      </ul>
+            <div class="left-section">
+                <h3>Projects <i class="fas fa-project-diagram"></i></h3>
+                <ul>
+                    <li><b>Smart Sprinkler system</b></li>
+                    <li>Smart sprinkler systems are a combination of advanced technology sprinklers with nozzles that
+                        improve coverage and irrigation controllers that are watering and water conservation systems
+                        that monitor moisture-related conditions on your property and automatically adjust watering to
+                        optimal levels.</li>
+                    <li><b>Lung cancer classification</b></li>
+                    <li>Developed a predictive model for the accurate classification of lung cancer types into four
+                        distinct classes:
+                        • Adinocarcinoma ('A')
+                        • Small Cell Carcinoma ('B')
+                        • Large Cell Carcinoma ('E')
+                        • Squamous Cell Carcinoma ('G').</li>
+                        <li><b>Town Guide</b></li>
+                    <li>Town Guide is a practical website that provides information about local restaurants, hotels, transport options, and entertainment places, assisting users in planning their activities within the town</li>
+                        
+                </ul>
+            </div>
 
-      <h3>Certifications</h3>
-      <ul>
-        <li>2022 | Data Analysis with Python</li>
-        <li>2022 | Data Visualization with Python</li>
-        <li>2022 | Getting started with Azure IOT Hub</li>
-        <li>2022 | Introduction to Data Engineering</li>
-        <li>2023 | AI for Everyone</li>
-        <li>2023 | Python for Data Science, AI</li>
-      </ul>
-    </section>
-  </div>
+            <div class="left-section">
+                <h3>Summer Internship <i class="fas fa-briefcase"></i></h3>
+                <ul>
+                    <li>May 2023 – July 2023 | Pernati naturals | Allampadu, Nellore</li>
+                </ul>
+            </div>
+
+            <div class="left-section">
+                <h3>Certifications <i class="fas fa-certificate"></i></h3>
+                <ul>
+                    <li>2024 | Service now - CSA Badge </li>
+                    <li>2024 | Service now - CAD Badge </li>
+                    <li>Coursera certificates</li>
+                    <li>2023 | Introduction to web development </li>
+                    <li>2023 | AWS fundamentals </li>
+                    <li>2023 | Azure - Machine learning </li>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-4s+ctBIpODWDJKDI5L+M1nBM2vOTOWAQq1HGr0R2lRcRb5giFq3hX8hQZ2t67XC"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyFzTlVqqnFqBRW3I5fksd5w33xq10lN"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
